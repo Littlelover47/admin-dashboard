@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="forms.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600&family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="sidebar">
+          <div class="dashboard">
+            <img src="./assets/view-dashboard.svg" alt="" />Dashboard
+          </div>
+          <ul class="nav nav-list1">
+            <li><img src="assets/home.svg" alt="" />Home</li>
+            <li><img src="assets/face-man-profile.svg" alt="" />Profile</li>
+            <li><img src="assets/text.svg" alt="" />Messeges</li>
+            <li><img src="assets/history.svg" alt="" />History</li>
+            <li><img src="assets/file-tree.svg" alt="" />Tasks</li>
+            <li>
+              <img
+                src="assets/google-circles-communities.svg"
+                alt=""
+              />Communities
+            </li>
+          </ul>
+          <ul class="nav nav-list2">
+            <li><img src="assets/cog.svg" alt="" />Settings</li>
+            <li><img src="assets/face-agent.svg" alt="" />Support</li>
+            <li><img src="assets/vpn.svg" alt="" />Privacy</li>
+          </ul>
+        </div>
+      </nav>
+      <header class="header">
+        <div class="top-header">
+          <div class="search-bar">
+            <input
+              class="search-icon"
+              type="image"
+              src="./assets/magnify.svg"
+              form="myform"
+              alt=""
+            />
+
+            <form id="myform" method="get" action="#">
+              <input
+                class="search-input"
+                type="text"
+                id="search-result"
+                name="search-result"
+                value=""
+              />
+            </form>
+          </div>
+          <div class="profile-bar">
+            <div class="profile">
+              <img class="not-icon" src="./assets/bell.svg" alt="" />
+            </div>
+            <div class="profile">
+              <img
+                class="profile-icon"
+                src="assets/icons8-male-user-64.png"
+                alt=""
+              />
+            </div>
+            <div class="profile">John Wick</div>
+          </div>
+        </div>
+        <div class="bottom-header">
+          <div class="profile-left-bar">
+            <img
+              class="profile-icon-bottom"
+              src="./assets/icons8-male-user-64.png"
+              alt=""
+            />
+            <div class="bottom-text">
+              <div class="small">Hi there,</div>
+              <div class="big">John Wick (@johnwick69)</div>
+            </div>
+          </div>
+          <div class="right-buttons">
+            <button class="button" type="button">New</button>
+            <button class="button" type="button">Upload</button>
+            <button class="button" type="button">Share</button>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="project-display">
+          <div class="project-announcement">Your Projects</div>
+          <div class="project-container">
+            <div class="project">
+              <div class="project-title">Super Cool Project</div>
+              <div class="project-content">
+                Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis
+                nostrud exercitation.
+              </div>
+              <ul class="interactive-options">
+                <li class="option">
+                  <img src="./assets/star-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/eye-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/source-fork.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <div class="project">
+              <div class="project-title">Less Cool Project</div>
+              <div class="project-content">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore
+              </div>
+              <ul class="interactive-options">
+                <li class="option">
+                  <img src="./assets/star-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/eye-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/source-fork.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <div class="project">
+              <div class="project-title">Impossible App</div>
+              <div class="project-content">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore
+              </div>
+              <ul class="interactive-options">
+                <li class="option">
+                  <img src="./assets/star-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/eye-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/source-fork.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <div class="project">
+              <div class="project-title">Easy Pz App</div>
+              <div class="project-content">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore
+              </div>
+              <ul class="interactive-options">
+                <li class="option">
+                  <img src="./assets/star-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/eye-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/source-fork.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <div class="project">
+              <div class="project-title">Ad Blocker</div>
+              <div class="project-content">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore
+              </div>
+              <ul class="interactive-options">
+                <li class="option">
+                  <img src="./assets/star-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/eye-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/source-fork.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <div class="project">
+              <div class="project-title">Money Maker</div>
+              <div class="project-content">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore
+              </div>
+              <ul class="interactive-options">
+                <li class="option">
+                  <img src="./assets/star-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/eye-plus-outline.svg" alt="" />
+                </li>
+                <li class="option">
+                  <img src="./assets/source-fork.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="announcements-container">
+            <div class="announcement-title">Announcements</div>
+            <div class="announcement-content">
+              <div class="texts">
+                <div class="text-title">Site Maintenance</div>
+                <div class="text-content">
+                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                  ac. Donec hendrerit sodales congue...
+                </div>
+              </div>
+              <div class="texts">
+                <div class="text-title">Community Share Day</div>
+                <div class="text-content">
+                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                  ac. Donec hendrerit sodales congue...
+                </div>
+              </div>
+              <div class="texts">
+                <div class="text-title">Updated Privacy Policy</div>
+                <div class="text-content">
+                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                  ac. Donec hendrerit sodales congue...
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-container">
+            <div class="trending-title">Trending</div>
+            <div class="trending-content">
+              <div class="profile-right-site">
+                <img
+                  class="profile-icon-right"
+                  src="./assets/icons8-pennywise-64.png"
+                  alt=""
+                />
+                <div class="bottom-text">
+                  <div class="user-name">@bambi123</div>
+                  <div class="project-name">Dobijarka</div>
+                </div>
+              </div>
+              <div class="profile-right-site">
+                <img
+                  class="profile-icon-right"
+                  src="assets/icons8-stich-64.png"
+                  alt=""
+                />
+                <div class="bottom-text">
+                  <div class="user-name">@szonek69</div>
+                  <div class="project-name">Banana eater</div>
+                </div>
+              </div>
+              <div class="profile-right-site">
+                <img
+                  class="profile-icon-right"
+                  src="assets/icons8-super-mario-64.png"
+                  alt=""
+                />
+                <div class="bottom-text">
+                  <div class="user-name">@kendal</div>
+                  <div class="project-name">Tetris</div>
+                </div>
+              </div>
+              <div class="profile-right-site">
+                <img
+                  class="profile-icon-right"
+                  src="assets/icons8-walter-white-64.png"
+                  alt=""
+                />
+                <div class="bottom-text">
+                  <div class="user-name">@WalterWthite</div>
+                  <div class="project-name">Drug dealer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
